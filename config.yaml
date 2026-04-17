@@ -1,0 +1,7 @@
+scene_data_path: /path/to/hm3d/scene_datasets/hm3d
+scene_dataset_config_path: /path/to/hm3d/scene_datasets/hm3d/hm3d_annotated_basis.scene_dataset_config.json
+camera_height: 1.5
+camera_tilt_deg: -30
+img_width: 1280
+img_height: 1280
+hfov: 120
