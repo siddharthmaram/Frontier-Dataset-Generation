@@ -19,8 +19,9 @@
    pip install pyyaml
    ```
    
-5. Download the HM3D dataset (train and val splits along with semantics) and add the path to `config.yaml`
-6. `camera_height` can be changed in `config.yaml`, and `AGENT_HEIGHT` variable can be changed in `generate_dataset.py` (Default is 1.5 meters for both).
+4. Download the HM3D dataset (train and val splits along with semantics) and add the path to `config.yaml`
+5. `camera_height` can be changed in `config.yaml`, and `AGENT_HEIGHT` variable can be changed in `generate_dataset.py` (Default is 1.5 meters for both).
+6. Change the `MAX_WORKERS` variables to a smaller number (it is set to 8) depending on your available resources.
 
 ## Run
 
