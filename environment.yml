@@ -1,7 +1,10 @@
-name: habitat_gen
+name: habitat
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.9
+  - cmake=3.14.0
   - habitat-sim
+  - withbullet
+  - headless
