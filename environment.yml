@@ -1,0 +1,7 @@
+name: habitat_gen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - habitat-sim
